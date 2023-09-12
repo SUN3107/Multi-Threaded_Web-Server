@@ -26,13 +26,8 @@ Now, the TCP part of the server is complete and it can receive requests in text 
  - `www.abcd.com` is the URL(Universal Resource Locator)
  - `80` is the Server port
  - `index.html` is the file that browser fetches from the web server
- A HTTP request for a web server from a web browser lookes something like this:
 
-<p align="center"><img src="img/client.png" hieght="200" alt="Client's Request" /></p>
-
- GET is the default method used by HTTP . The client sent some headers to the server and expect same in return. The client expects a similar response from server which will look something like this:
-
-<p align="center"><img src="img/Response.png" hieght="200" alt="Server Response" /></p>
+ GET is the default method used by HTTP . The client sent some headers to the server and expect same in return. The client expects a similar response from server.
 
 So, if we want to send a requested file to the client, we first need to create a header for the same and put a blank line and then the contents of file.
 
